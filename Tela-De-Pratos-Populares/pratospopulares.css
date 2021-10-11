@@ -1,0 +1,136 @@
+body
+{
+    background-image: linear-gradient(rgb(148, 248, 148), rgb(58, 214, 58), rgb(8, 141, 8));
+    margin-bottom: 15px;
+}
+
+h1
+{
+    text-align: center;
+    font-size: 60px;
+    margin-top: 0px;
+    margin-bottom: 20px;
+    color: rgb(241, 241, 38);
+    background-color: #1c850e;
+    text-shadow:
+    -2px -2px 1px rgb(233, 10, 10), 
+    -2px -2px 1px rgb(233, 10, 10),                    
+    -2px -2px 1px rgb(233, 10, 10),                  
+    -2px -2px 1px rgb(233, 10, 10);
+}
+
+img:hover {
+    opacity: 1.0;
+}
+img{
+    opacity: 0.5;
+}
+
+#foto1
+{
+    border-radius: 100px;
+    margin-left: 75px;
+    margin-bottom: 15px;
+}
+
+#foto2
+{
+    border-radius: 100px;
+    margin-left: 130px;
+    margin-bottom: 10px;
+}
+
+#foto3
+{
+    border-radius: 100px;
+    margin-left: 140px;
+    margin-bottom: 15px;
+}
+
+#t1:hover
+{
+    background-color: yellow;
+}
+
+#t1
+{
+    position: absolute;
+    margin-left: 190px;
+    margin-top: 10px;
+    font-size: 30px;
+    margin-bottom: 0px;
+    color: rgb(255, 255, 255);
+    text-shadow:
+    -1px -1px 0px rgb(5, 156, 226),
+    -1px 1px 0px rgb(5, 156, 226),                  
+    1px -1px 0px rgb(5, 156, 226),                  
+    1px 1px 0px  rgb(5, 156, 226);
+}
+
+#p1
+{
+    margin-left: 20px;
+    color: rgb(255, 255, 255);
+    font-size: 18px;
+    margin-bottom: 95px;
+    margin-top: 60px;
+}
+
+#t2:hover
+{
+    background-color: yellow;
+    width: fit-content;
+}
+
+#t2
+{
+    margin-left: 580px;
+    margin-top: -250px;
+    font-size: 30px;
+    color: rgb(255, 255, 255);
+    text-shadow:
+    -1px -1px 0px rgb(5, 156, 226),
+    -1px 1px 0px rgb(5, 156, 226),                  
+    1px -1px 0px rgb(5, 156, 226),                  
+    1px 1px 0px  rgb(5, 156, 226);
+}
+
+#p2
+{
+    margin-left: 500px;
+    color: rgb(255, 255, 255);
+    font-size: 18px;
+}
+
+#t3:hover
+{
+    background-color: yellow;
+    width: fit-content;
+}
+
+#t3
+{
+    margin-left: 1050px; 
+    margin-top: -175px;
+    font-size: 30px;
+    margin-bottom: 0px;
+    color: rgb(255, 255, 255);
+    text-shadow:
+    -1px -1px 0px rgb(5, 156, 226),
+    -1px 1px 0px rgb(5, 156, 226),                  
+    1px -1px 0px rgb(5, 156, 226),                  
+    1px 1px 0px  rgb(5, 156, 226);
+}
+
+#p3
+{
+    margin-left: 920px;
+    color: rgb(255, 255, 255);
+    font-size: 18px;
+}
+
+footer
+{
+    font-style: oblique;
+    margin-top: 50px;
+}
