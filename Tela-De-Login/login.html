@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Avaliação</title>
+
+    <link rel="stylesheet" href="login.css">
+
+</head>
+
+<body>
+    <main>
+        <div class="ladoesq">
+
+            <h2><b> QUERO ME CADASTRAR</b></h2>
+            <br>
+            <pre><p> Em apenas um passo, crie uma conta e finalize sua compra.
+                               é rápido e seguro. </p></pre>
+
+            <div class="cadastre">
+
+                <input onclick="cadastre3()" id="cadastre2" type="button" name="cadastre" value="Cadastre-se">
+
+            </div> <br></br>
+
+            <img class="fotopequena" src="imagens/logo.png" alt="">
+            <br></br>
+
+
+
+            <input onclick="cadastreum()" class="botaoesquerdo" type="button" name="facebook"
+                value=" Cadastre-se usando o Facebook">
+            <br></br>
+
+
+            <label for="gmail"></label>
+            <input onclick="cadastredois()" id="botaoesquerdodois" type="button" name="gmail"
+                value="Cadastre-se usando o Gmail">
+
+
+
+
+
+        </div>
+
+        <aside class="lado">
+
+            <img src="imagens/logotipo-final.png" id="fotolado">
+
+
+
+
+            <form>
+
+
+                <label for="login"></label>
+                <input class="dados" type="text" id="login" name="nome" placeholder="Login">
+
+
+
+                <label for="senha"></label>
+                <input class="dados" id="senha" type="password" name="senha" placeholder="Senha">
+
+
+
+                <input onclick="validar()" class="botão" type="submit" name="acessar" value="Acessar">
+
+                <br></br>
+                
+                <div class="esqueceusenha">
+                    <a href="" onclick="esqueceusenha()"> Esqueceu a senha? Clique aqui </a>
+                </div>
+
+
+            </form>
+
+        </aside>
+
+    </main>
+    <script src="login.js"></script>
+
+</body>
+
+
+
+</html>
