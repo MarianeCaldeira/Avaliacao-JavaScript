@@ -1,0 +1,142 @@
+body
+{
+    background-image: url("imagens/fundo.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 5px;
+    margin-bottom: 20px;
+}
+
+h1
+{
+    text-align: center;
+    font-size: 60px;
+    margin-top: 0px;
+    margin-bottom: 20px;
+    color: rgb(241, 241, 38);
+    background-color: #1c850e;
+    text-shadow:
+    -2px -2px 1px rgb(233, 10, 10);
+    font-style: italic;
+}
+
+#logo
+{
+    width: 150px;
+    height: 150px;
+    margin-top: -25px;
+}
+
+#pratos
+{
+    margin-left: 170px;
+    margin-top: -60px;
+    color: yellow;
+    text-shadow:
+    -1px -1px 1px rgb(233, 10, 10);
+    background-color: green;
+    position: absolute;
+    font-size: 25px;
+    font-style: italic;
+}
+
+#bebidas
+{
+    position: absolute;
+    margin-top: -280px;
+    margin-left: 960px;
+    color: yellow;
+    text-shadow:
+    -1px -1px 1px rgb(233, 10, 10);
+    background-color: green;
+    font-size: 25px;
+    font-style: italic;
+}
+
+#sobremesas
+{
+    margin-top: 0px;
+    position: absolute;
+    margin-left: 550px;
+    color: yellow;
+    text-shadow:
+    -1px -1px 1px rgb(233, 10, 10);
+    background-color: green;
+    font-size: 25px;
+    font-style: italic;
+}
+
+#prato
+{
+    margin-left: 70px;
+    margin-top: 20px;
+    color: black;
+    text-shadow:
+    1px 1px 0px black;
+    font-style: oblique;
+}
+
+p:hover
+{
+    background-color: lightgreen;
+    width: fit-content;
+}
+
+#p1
+{
+    margin-top: -40px;
+    margin-left: 70px;
+    color: black;
+    text-shadow:
+    1px 1px 0px black;
+    font-style: oblique;
+}
+
+#bebida
+{
+    margin-left: 780px;
+    margin-top: 20px;
+    color: black;
+    text-shadow:
+    1px 1px 0px black;
+    font-style: oblique;
+}
+
+#agua
+{
+    margin-left: 780px;
+    margin-top: -260px;
+    color: black;
+    text-shadow:
+    1px 1px 0px black;
+    font-style: oblique;
+}
+
+#sobremesa
+{
+    margin-left: 360px;
+    margin-top: 20px;
+    color: black;
+    text-shadow:
+    1px 1px 0px black;
+    font-style: oblique;
+}
+
+#p2
+{
+    margin-left: 360px;
+    margin-top: 20px;
+    color: black;
+    text-shadow:
+    1px 1px 0px black;
+    font-style: oblique;
+}
+
+footer
+{
+    margin-top: 30px;
+    color: black;
+    text-shadow:
+    1px 1px 0px white;
+    font-style: oblique;
+}
