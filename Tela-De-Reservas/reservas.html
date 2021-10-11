@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>
+        Reservas do restaurante
+    </title>
+    <link href="reservas.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</head>
+
+<body>
+    <main>
+        <h1>
+            RESERVAS
+        </h1>
+        <img id="foto1" src="imagens/foto1.jpg" alt="" width="250">
+        <img id="foto2" src="imagens/foto3.jpg" alt="" width="250" height="200">
+        <img id="foto3" src="imagens/foto2.jpg" alt="" width="250">
+        <img id="foto8" src="imagens/foto8.jpg" alt="" width="250">
+        <img id="foto4" src="imagens/foto4.png" alt="" width="260">
+        <img id="foto5" src="imagens/foto6.jpg" alt="" width="250">
+        <img id="foto6" src="imagens/foto5.jpeg" alt="" width="260">
+        <img id="foto7" src="imagens/foto7.jpg" alt="" width="250">
+        <div id="div1">
+            <form action="" id="form01">
+                <img src="imagens/Logotipo-final.png" alt="Logotipo" width="150">
+                <br/> <br/>
+                <div class="form-group">
+                    <h3 class="col-form-label-xg">
+                        <u>
+                            Reservar uma mesa
+                        </u>
+                    </h3>
+                </div>
+                <div class="form-group">
+                    <label for="data">
+                        <b>
+                            Data:
+                        </b>
+                    </label>
+                    <input type="date" id="data" class="form-control width-250" >
+                </div>
+               
+                <div class="form-group">
+
+                    <label for="hora">
+                        <b>
+                            Hora:
+                        </b>
+                    </label>
+                    <input type="time" id="hora" class="form-control width-250">
+
+               </div>
+
+                <div class="form-group">
+                    <label for="pessoas">
+                        <b>
+                            Pessoas:
+                        </b>
+                    </label>
+                    <input type="number" id="pessoas" class="form-control width-250">
+
+                </div>
+                <br/>
+                <div class="form-group">
+                    <h3 class="col-form-label-xg">
+                        <u>
+                            Contato Principal
+                        </u>
+                    </h3>
+                </div>
+                <div class="form-group">
+                    <label for="nome">
+                        <b>
+                            Nome completo:
+                        </b>
+                    </label>
+                    <input type="text" id="nome" class="form-control width-350">
+
+                </div>
+
+                <div class="form-group">
+                    <label for="telefone">
+                        <b>
+                            Telefone:
+                        </b>
+                    </label>
+                    <input type="text" id="telefone" class="form-control width-350">
+
+               </div>
+
+               <button id="enviar" class="btn btn-success" data-toggle="modal" data-target="#mensagens">Enviar</button>
+               <button id="cancelar" class="btn btn-secondary" data-toggle="modal" data-target="#mensagens">Cancelar</button>
+            
+                <div class="modal" id="mensagens">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-body">
+                                <button type="button" class="close" data-dismiss="modal">&times;</button>
+                                <br/>  
+                                <span style="text-align: center;" id="texto-mensagem"></span>
+                                <br/> <br/> 
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </form>
+        </div>
+        <footer>
+            <center>
+                <i>
+                    <b>
+                        ©️ Criado em 2021 por Mariane Barbosa Caldeira.
+                    </b>
+                </i>
+            </center>
+        </footer>
+    </main>
+    <script src="reservas.js"></script>
+</body>
+
+</html>

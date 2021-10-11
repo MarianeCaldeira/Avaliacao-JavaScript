@@ -1,0 +1,155 @@
+body
+{
+    background-image: linear-gradient(rgb(148, 248, 148), rgb(58, 214, 58), rgb(8, 141, 8));
+    margin-top: 0px;
+}
+
+h1
+{
+    margin-top: 0px;
+    margin-bottom: 5px; 
+    font-style: italic;
+    color: rgb(241, 241, 38);
+    background-color: #1c850e;
+    text-shadow:
+    -2px -2px 1px rgb(233, 10, 10), 
+    -2px -2px 1px rgb(233, 10, 10),                    
+    -2px -2px 1px rgb(233, 10, 10),                  
+    -2px -2px 1px rgb(233, 10, 10);
+    font-size: 70px;
+    text-align: center;
+}
+
+#foto1
+{
+    position: absolute;
+	left: -100px;
+	top: 140px;
+    border-radius: 10px;
+}
+
+#foto2
+{
+    position: absolute;
+	left: -100px;
+	top: 470px;
+    border-radius: 10px;
+}
+
+#foto3
+{
+    position: absolute;
+	left: 50px;
+	top: 310px;
+    border-radius: 10px;
+}
+
+#foto4
+{
+    position: absolute;
+	left: 950px;
+	top: 160px;
+    border-radius: 10px;
+}
+
+#foto5
+{
+    position: absolute;
+	left: 950px;
+	top: 490px;
+    border-radius: 10px;
+}
+
+#foto6
+{
+    position: absolute;
+	left: 780px;
+	top: 330px;
+    border-radius: 10px;
+}
+
+#foto8
+{
+    position: absolute;
+	left: 50px;
+	top: 650px;
+    border-radius: 10px;
+}
+
+#foto7
+{
+    position: absolute;
+	left: 780px;
+	top: 650px;
+    border-radius: 10px;
+}
+
+img
+{
+    margin-left: 120px;
+}
+
+#div1
+{
+    border-radius: 20px;
+    border-width: 3px;
+    border-color: green;
+    background-color:#f0f190;
+    margin-left: 440px;
+    width: 33%;
+    border: darkgreen solid 3px;
+    padding: 15px;
+}
+
+h3
+{
+    color: rgb(4, 85, 4);
+    text-shadow:
+    1px 1px 0px yellow, 
+    1px 1px 0px yellow,                    
+    1px 1px 0px yellow,                  
+    1px 1px 0px yellow;
+    font-size: 23px;
+    text-align: center;
+    font-style: italic;
+}
+
+label
+{
+    color: rgb(6, 61, 6);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 15px;
+    font-style: oblique;
+}
+
+#enviar
+{
+    width: 100px;
+    margin-left: 75px;
+    margin-bottom: 5px;
+    border-radius: 5px;
+}
+
+#cancelar
+{
+    width: 100px;
+    margin-left: 30px;
+    margin-bottom: 5px;
+    border-radius: 5px;
+}
+
+footer
+{
+    font-style: oblique;
+    margin-top: 10px;
+}
+
+.width-250
+{
+    width: 250px !important;
+}
+
+.width-350
+{
+    width: 350px !important;
+}
