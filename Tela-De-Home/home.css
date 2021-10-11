@@ -1,0 +1,114 @@
+body
+{
+    background-color: rgb(63, 196, 63);
+}
+
+#esquerda
+{
+    float: left;
+    height: 615px;
+    width: 978px;
+    margin: 0 auto;
+    margin-bottom: 0px;
+    background-image: url("imagens/feijoada.jpg");
+    background-size: 1000px 1000px;
+    background-repeat: no-repeat;
+    opacity: 0.8;
+}
+
+#direita
+{
+    float: right;
+    height: 615px;
+    width: 350px;
+    margin: 0 auto;
+    background-color: rgb(33, 168, 33);
+    text-align: center;
+}
+
+#logo
+{
+    width: 1000px;
+    height:610px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#foto
+{
+    width: 160px;
+    height: 160px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 60px;
+}
+
+#t1
+{
+    text-align: center;
+    margin-top: 170px;
+    color: #FFFF;
+    font-style: italic;
+    font-size: 60px;
+    text-shadow:
+    2px 2px 0px rgb(32, 10, 233), 
+    2px 2px 0px rgb(32, 10, 233),                    
+    2px 2px 0px rgb(32, 10, 233),                  
+    2px 2px 0px rgb(32, 10, 233);
+}
+
+#t2
+{
+    text-align: center;
+    color: #FFFF;
+    font-style: italic;
+    font-size:60px;
+    text-shadow:
+    2px 2px 0px rgb(32, 10, 233), 
+    2px 2px 0px rgb(32, 10, 233),                    
+    2px 2px 0px rgb(32, 10, 233),                  
+    2px 2px 0px rgb(32, 10, 233);
+}
+
+#t3
+{
+    text-align: center;
+    color: #FFFF;
+    font-style: italic;
+    font-size: 55px;
+    text-shadow:
+    2px 2px 0px rgb(32, 10, 233), 
+    2px 2px 0px rgb(32, 10, 233),                    
+    2px 2px 0px rgb(32, 10, 233),                  
+    2px 2px 0px rgb(32, 10, 233);
+}
+
+#menu , #prato , #reserva , #login , #contato
+{
+    color: white;
+    text-shadow:
+    2px 2px 0px rgb(32, 10, 233), 
+    2px 2px 0px rgb(32, 10, 233),                    
+    2px 2px 0px rgb(32, 10, 233),                  
+    2px 2px 0px rgb(32, 10, 233);
+    margin-left: 10px;
+    width: 140px;
+    height: 19px;
+    left: 866px;
+    top: 495px;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 19px;
+    text-decoration: none;
+    border-bottom: 2px solid;
+    font-size: 25px;
+}
+
+footer
+{
+    font-style: oblique;
+    margin-top: 15px;
+}
