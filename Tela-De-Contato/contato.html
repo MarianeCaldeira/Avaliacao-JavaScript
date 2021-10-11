@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>
+        Contatos
+    </title>
+    <link rel="stylesheet" href="contato.css">
+</head>
+
+<body>
+    <main>
+        <div id="principal">
+            <center>
+                <h1 id="t1">
+                    Contato
+                </h1>
+            </center>
+            <div id="esquerda">
+                <img id="logo" src="imagens/Logotipo-final.png" alt="Logo do Restaurante">
+                <h2 id="t2">
+                    NOSSOS CONTATOS:
+                </h2>
+                <img id="mensa" src="imagens/mensagem.png" alt="" width="30px">
+                <p id="p1">
+                    <b>
+                        Deliciasbrasileiras@gmail.com
+                    </b>
+                </p>
+                <img id="loca" src="imagens/localizacao.png" alt="" width="30px">
+                <p id="p2">
+                    <b>
+                        Av.Domingos Ferreira, 4080, sala 803 <br>
+                        Empresarial Blue Tower<br>
+                        Boa Viagem, Recife/PE
+                    </b>
+                </p>
+                <img id="fone" src="imagens/telefone.png" alt="" width="25px">
+                <p id="p3">
+                    <b>
+                        +55 81 5030.2433
+                    </b>
+                </p>
+                <p id="siga">
+                    <b>
+                        <u>
+                            Siga-nos:
+                        </u>
+                    </b>
+                </p>
+                <a class="rede" href="https://www.instagram.com/" target="_blank"><img id="insta"
+                        src="imagens/instagram.png" alt="" width="30px"></a>
+                <a class="rede" href="https://pt-br.facebook.com/" target="_blank"><img id="face"
+                        src="imagens/facebook.png" alt="" width="29px"></a>
+                <a class="rede" href="https://web.whatsapp.com/" target="_blank"><img id="zap"
+                        src="imagens/Whatsapp.png" alt="" width="28px"></a>
+            </div>
+            <div id="direita">
+                <form id="form01">
+                    <fieldset>
+                    <center>
+                        <h2 id="t3">
+                            FORMULARIO DE CONTATO
+                        </h2>
+                    </center>
+
+                    <label for="nome">
+                        <b>
+                            Nome:
+                        </b>
+                    </label>
+                    <input type="text" id="nome" nome="nome">
+
+                    <br><br>
+
+                    <label for="email">
+                        <b>
+                            Email:
+                        </b>
+                    </label>
+                    <input type="text" id="email" nome="email">
+
+                    <br><br>
+
+                    <label for="telefone">
+                        <b>
+                            Telefone:
+                        </b>
+                    </label>
+                    <input type="text" id="telefone" nome="telefone"></input>
+
+                    <br><br>
+
+                    <label for="assunto">
+                        <b>
+                            Assunto:
+                        </b>
+                    </label>
+
+                    <br>
+
+                    <select id="assunto">
+                        <option value="Selecione">
+                            Selecione
+                        </option>
+                        <option value="delivery">
+                            Delivery
+                        </option>
+                        <option value="cardapio">
+                            Cardápio
+                        </option>
+                    </select>
+
+                    <br><br>
+
+                    <label for="mensagem">
+                        <b>
+                            Mensagem:
+                        </b>
+                    </label>
+
+                    <br>
+
+                    <textarea id="mensagem" name="mensagem" rows="4" cols="32"></textarea>
+
+                    <br><br>
+
+                    <button id="enviar" onclick="evento()">
+                        Enviar
+                    </button>
+                    </fieldset>
+                </form>
+            </div>
+        </div>
+
+        <br><br>
+
+        <center>
+            <footer>
+                <i>
+                    ©️ Criado em 2021 por Mariane B. Caldeira, Kayo Victor F. Lima, Elimar Santos, Victor Alencar, Maria
+                    Eliza.
+                </i>
+            </footer>
+        </center>
+    </main>
+    <script src="contato.js"></script>
+</body>
+
+</html>
